@@ -4,7 +4,7 @@ namespace AlmoxarifadoBackAPI.Repositorio
 {
     public interface IProdutoRepositorio
     {
-        void Add(Produto obj);
+        void Add(Produto produto);
 
         List<Produto> GetAll();
 
