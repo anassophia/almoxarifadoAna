@@ -10,15 +10,15 @@ namespace AlmoxafiradoFront.Controllers
         public  IActionResult Index()
         {
             var url = "https://localhost:44366/lista";
-            List <CategoriaDTO> categorias = new List < CategoriaDTO> ();
+            List <CategoriaDTO> categoria = new List < CategoriaDTO> ();
             using HttpClient client = new HttpClient();
             try
             {
                 HttpResponseMessage response =  client.GetAsync(url).Result ;
                 response.EnsureSuccessStatusCode();
                 string json =  response.Content.ReadAsStringAsync().Result;
-                 categorias = JsonSerializer.Deserialize<List<CategoriaDTO>>(json); 
-                 ViewBag.Categorias = categorias;
+                 categoria = JsonSerializer.Deserialize<List<CategoriaDTO>>(json);
+                 ViewBag.Categoria = categoria;
 
 
             }

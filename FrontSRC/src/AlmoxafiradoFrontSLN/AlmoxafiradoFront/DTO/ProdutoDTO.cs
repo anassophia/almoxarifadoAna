@@ -1,6 +1,6 @@
-﻿namespace AlmoxarifadoBackAPI.Models
+﻿namespace AlmoxafiradoFront.DTO
 {
-    public class Produto
+    public class ProdutoDTO
     {
         public int Codigo { get; set; }
         public string Descricao { get; set; }
