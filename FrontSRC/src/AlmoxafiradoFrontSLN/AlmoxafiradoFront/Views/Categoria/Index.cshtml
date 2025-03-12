@@ -9,18 +9,19 @@
     <div class="container2Categoria">
         <table class="TableContainerCategoria">
             <thead class="theadCategoria">
-            <th>
-                Código
-            </th>
-            <th>
-                Descrição
-            </th>
-            <th>
-                Opções
-            </th>
+                <th>
+                    Código
+                </th>
+                <th>
+                    Descrição
+                </th>
+                <th>
+                    Opções
+                </th>
             </thead>
             <tbody>
-           
+
+
                 @foreach (var item in ViewBag.Categoria)
                 {
                     <tr>
@@ -28,15 +29,14 @@
                         <td class="tdCategoria">@item.descricao</td>
                         <td class="tdCategoria">
                             <div class="IconesContainerCategoria">
-                                <div class="Icone1Categoria">
-                                </div>
+                                <i class="bi bi-trash3"></i>
                                 <div class="Icone2Categoria">
                                 </div>
                             </div>
                         </td>
                     </tr>
-               
                 }
+
             </tbody>
 
         
