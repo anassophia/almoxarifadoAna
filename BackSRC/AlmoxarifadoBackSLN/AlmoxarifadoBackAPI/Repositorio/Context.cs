@@ -17,12 +17,18 @@ namespace AlmoxarifadoBackAPI.Repositorio
             modelBuilder.Entity<Fornecedor>().Property(c => c.Codigo).ValueGeneratedOnAdd();
             modelBuilder.Entity<Secretaria>().HasKey(c => c.Codigo);
             modelBuilder.Entity<Secretaria>().Property(c => c.Codigo).ValueGeneratedOnAdd();
+            modelBuilder.Entity<Entrada>().HasKey(c => c.Codigo);
+            modelBuilder.Entity<Entrada>().Property(c => c.Codigo).ValueGeneratedOnAdd();
+            modelBuilder.Entity<Saida>().HasKey(c => c.Codigo);
+            modelBuilder.Entity<Saida>().Property(c => c.Codigo).ValueGeneratedOnAdd();
 
         }
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<Produto> Produto { get; set; }
         public DbSet<Fornecedor> Fornecedor { get; set; }
         public DbSet<Secretaria> Secretaria { get; set; }
+        public DbSet<Secretaria> Entrada { get; set; }
+        public DbSet<Secretaria> Saida { get; set; }
 
     }
 }

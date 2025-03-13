@@ -1,11 +1,9 @@
-﻿namespace AlmoxarifadoBackAPI.Models
+﻿namespace AlmoxarifadoBackAPI.DTO
 {
-    public class Saida
+    public class SaidaCadastroDTO
     {
-        public int Codigo { get; set; }
         public string Descricao { get; set; }
         public int DataSaida { get; set; }
         public int CodigoSecretaria { get; set; }
-        
     }
 }
