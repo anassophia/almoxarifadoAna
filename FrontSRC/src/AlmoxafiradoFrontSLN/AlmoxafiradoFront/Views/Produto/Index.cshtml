@@ -1,5 +1,54 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<div id="container" class="containerCategoria">
+    <div class="container1Categoria">
+        <div>
+            <button class="btnCategoria">
+                Novo
+            </button>
+        </div>
+    </div>
+    <div class="container2Categoria">
+        <table class="TableContainerCategoria">
+            <thead class="theadCategoria">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Opções
+            </th>
+            </thead>
+            <tbody>
+
+
+                @foreach (var item in ViewBag.Categoria)
+                {
+                    <tr>
+                        <td class="tdCategoria">@item.Codigo</td>
+                        <td class="tdCategoria">@item.Descricao</td>
+                        <td class="tdCategoria">
+                            <div class="IconesContainerCategoria">
+
+                                <i class="bi bi-trash3"></i>
+                                <i class="bi bi-pencil-square"></i>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Categoria">
+        <div>
+            <button class="btnCategoria BtnAzulColorCategoria">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>
+
+

@@ -1,5 +1,70 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<div id="container" class="containerSecretaria">
+    <div class="container1Secretaria">
+        <div>
+            <button class="btnSecretaria">
+                Novo
+            </button>
+        </div>
+    </div>
+    <div class="container2Secretaria">
+        <table class="TableContainerSecretaria">
+            <thead class="theadSecretaria">
+            <th>
+                Código
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                Telefone
+            </th>
+            <th>
+                Estado
+            </th>
+            <th>
+                Cidade
+            </th
+            <th>
+                CNPJ
+            </th>
+            <th>
+                Opções
+            </th>
+            </thead>
+            <tbody>
+
+
+                @foreach (var item in ViewBag.Secretaria)
+                {
+                    <tr>
+                        <td class="tdSecretaria">@item.Codigo</td>
+                        <td class="tdSecretaria">@item.Nome</td>
+                        <td class="tdSecretaria">@item.Telefone</td>
+                        <td class="tdSecretaria">@item.Estado</td>
+                        <td class="tdSecretaria">@item.Cidade</td>
+                        <td class="tdSecretaria">@item.CNPJ</td>
+                        <td class="tdSecretaria">
+                            <div class="IconesContainerSecretaria">
+
+                                <i class="bi bi-trash3"></i
+
+                                <i class="bi bi-pencil-square"></i>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Secretaria">
+        <div>
+            <button class="btnSecretaria BtnAzulColorSecretaria">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>
