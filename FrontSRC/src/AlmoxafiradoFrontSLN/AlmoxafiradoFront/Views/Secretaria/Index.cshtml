@@ -34,15 +34,15 @@
             <tbody>
 
 
-                @foreach (var item in ViewBag.Secretaria)
+                @if (ViewBag.Secretaria != null)
                 {
                     <tr>
-                        <td class="tdSecretaria">@item.Codigo</td>
-                        <td class="tdSecretaria">@item.Nome</td>
-                        <td class="tdSecretaria">@item.Telefone</td>
-                        <td class="tdSecretaria">@item.Estado</td>
-                        <td class="tdSecretaria">@item.Cidade</td>
-                        <td class="tdSecretaria">@item.CNPJ</td>
+                        <td class="tdSecretaria">Codigo</td>
+                        <td class="tdSecretaria">Nome</td>
+                        <td class="tdSecretaria">Telefone</td>
+                        <td class="tdSecretaria">Estado</td>
+                        <td class="tdSecretaria">Cidade</td>
+                        <td class="tdSecretaria">CNPJ</td>
                         <td class="tdSecretaria">
                             <div class="IconesContainerSecretaria">
 

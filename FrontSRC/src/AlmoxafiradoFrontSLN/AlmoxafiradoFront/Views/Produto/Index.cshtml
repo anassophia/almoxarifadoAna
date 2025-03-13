@@ -1,19 +1,31 @@
-﻿<div id="container" class="containerCategoria">
-    <div class="container1Categoria">
+﻿<div id="container" class="containerProduto">
+    <div class="container1Produto">
         <div>
-            <button class="btnCategoria">
+            <button class="btnProduto">
                 Novo
             </button>
         </div>
     </div>
-    <div class="container2Categoria">
-        <table class="TableContainerCategoria">
-            <thead class="theadCategoria">
+    <div class="container2Produto">
+        <table class="TableContainerProduto">
+            <thead class="theadProduto">
             <th>
                 Código
             </th>
             <th>
                 Descrição
+            </th>
+            <th>
+                UnidadeMedida
+            </th>
+            <th>
+                EstoqueAtual
+            </th>
+            <th>
+                Epermanente
+            </th>
+            <th>
+                CodigoCategoria
             </th>
             <th>
                 Opções
@@ -22,13 +34,17 @@
             <tbody>
 
 
-                @foreach (var item in ViewBag.Categoria)
+                @if (ViewBag.Produto != null)
                 {
                     <tr>
-                        <td class="tdCategoria">@item.Codigo</td>
-                        <td class="tdCategoria">@item.Descricao</td>
-                        <td class="tdCategoria">
-                            <div class="IconesContainerCategoria">
+                        <td class="tdProduto">Codigo</td>
+                        <td class="tdProduto">Descricao</td>
+                        <td class="tdProduto">UnidadeMedida</td>
+                        <td class="tdProduto">EstoqueAtual</td>
+                        <td class="tdProduto">Epermanente</td>
+                        <td class="tdProduto">CodigoCategoria</td>
+                        <td class="tdProduto">
+                            <div class="IconesContainerProduto">
 
                                 <i class="bi bi-trash3"></i>
                                 <i class="bi bi-pencil-square"></i>
@@ -42,13 +58,11 @@
 
         </table>
     </div>
-    <div class="container3Categoria">
+    <div class="container3Produto">
         <div>
-            <button class="btnCategoria BtnAzulColorCategoria">
+            <button class="btnProduto BtnAzulColorProduto">
                 Voltar
             </button>
         </div>
     </div>
 </div>
-
-

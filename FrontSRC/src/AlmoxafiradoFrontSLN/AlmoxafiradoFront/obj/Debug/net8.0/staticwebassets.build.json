@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ekGzxRQ2vy+/ny5FsNyKHjdbQE1ueIA5wJd4YOnlMuE=",
+  "Hash": "8m3XcsrjTYXQEOIhIosr5HctSvVK8VD0O+34v+y4cGM=",
   "Source": "AlmoxafiradoFront",
   "BasePath": "_content/AlmoxafiradoFront",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fwm1i2vrt5",
-      "Integrity": "L3QoF0qnSAwNyLrcicJa5GxHrGD3W4uppXwydW8yc4s=",
+      "Fingerprint": "7qk0bxkxma",
+      "Integrity": "7/fKkwDEKd1/n0ARlANBoj2pNDMGKwfH9geSpKgjP2s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\categoria.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dyjx89twm7",
-      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "Fingerprint": "ede8i9g6ij",
+      "Integrity": "Pm9orO+Lf37dZIp+F5Hnl/ny1tNbyBoF7FkpY86gopQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\fornecedor.css"
@@ -115,19 +115,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dyjx89twm7",
-      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "Fingerprint": "2sacinyvcf",
+      "Integrity": "kq9sKXu2fnU90iYWQt5HLKgycJMl2PXxsTOCDmgRqws=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\produto.css"
     },
     {
-      "Identity": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\repositorio.css",
+      "Identity": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\secretaria.css",
       "SourceId": "AlmoxafiradoFront",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\",
       "BasePath": "_content/AlmoxafiradoFront",
-      "RelativePath": "css/repositorio#[.{fingerprint}]?.css",
+      "RelativePath": "css/secretaria#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,11 +136,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dyjx89twm7",
-      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "Fingerprint": "284925085z",
+      "Integrity": "Xgze1IoMx8zxvZtpGg67DrlNYxAiRUI9iqjo6fobIRs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\repositorio.css"
+      "OriginalItemSpec": "wwwroot\\css\\secretaria.css"
     },
     {
       "Identity": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\site.css",
@@ -1569,6 +1569,51 @@
       ]
     },
     {
+      "Route": "css/categoria.7qk0bxkxma.css",
+      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\categoria.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7/fKkwDEKd1/n0ARlANBoj2pNDMGKwfH9geSpKgjP2s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7qk0bxkxma"
+        },
+        {
+          "Name": "label",
+          "Value": "css/categoria.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7/fKkwDEKd1/n0ARlANBoj2pNDMGKwfH9geSpKgjP2s="
+        }
+      ]
+    },
+    {
       "Route": "css/categoria.css",
       "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\categoria.css",
       "Selectors": [],
@@ -1579,7 +1624,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1715"
+          "Value": "1485"
         },
         {
           "Name": "Content-Type",
@@ -1587,11 +1632,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"L3QoF0qnSAwNyLrcicJa5GxHrGD3W4uppXwydW8yc4s=\""
+          "Value": "\"7/fKkwDEKd1/n0ARlANBoj2pNDMGKwfH9geSpKgjP2s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1601,52 +1646,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-L3QoF0qnSAwNyLrcicJa5GxHrGD3W4uppXwydW8yc4s="
-        }
-      ]
-    },
-    {
-      "Route": "css/categoria.fwm1i2vrt5.css",
-      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\categoria.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1715"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"L3QoF0qnSAwNyLrcicJa5GxHrGD3W4uppXwydW8yc4s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fwm1i2vrt5"
-        },
-        {
-          "Name": "label",
-          "Value": "css/categoria.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-L3QoF0qnSAwNyLrcicJa5GxHrGD3W4uppXwydW8yc4s="
+          "Value": "sha256-7/fKkwDEKd1/n0ARlANBoj2pNDMGKwfH9geSpKgjP2s="
         }
       ]
     },
@@ -1661,7 +1661,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14"
+          "Value": "1508"
         },
         {
           "Name": "Content-Type",
@@ -1669,11 +1669,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+          "Value": "\"Pm9orO+Lf37dZIp+F5Hnl/ny1tNbyBoF7FkpY86gopQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1683,12 +1683,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+          "Value": "sha256-Pm9orO+Lf37dZIp+F5Hnl/ny1tNbyBoF7FkpY86gopQ="
         }
       ]
     },
     {
-      "Route": "css/fornecedor.dyjx89twm7.css",
+      "Route": "css/fornecedor.ede8i9g6ij.css",
       "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\fornecedor.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1698,7 +1698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14"
+          "Value": "1508"
         },
         {
           "Name": "Content-Type",
@@ -1706,11 +1706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+          "Value": "\"Pm9orO+Lf37dZIp+F5Hnl/ny1tNbyBoF7FkpY86gopQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1720,7 +1720,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dyjx89twm7"
+          "Value": "ede8i9g6ij"
         },
         {
           "Name": "label",
@@ -1728,7 +1728,52 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+          "Value": "sha256-Pm9orO+Lf37dZIp+F5Hnl/ny1tNbyBoF7FkpY86gopQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/produto.2sacinyvcf.css",
+      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\produto.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kq9sKXu2fnU90iYWQt5HLKgycJMl2PXxsTOCDmgRqws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2sacinyvcf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/produto.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kq9sKXu2fnU90iYWQt5HLKgycJMl2PXxsTOCDmgRqws="
         }
       ]
     },
@@ -1743,7 +1788,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14"
+          "Value": "1471"
         },
         {
           "Name": "Content-Type",
@@ -1751,11 +1796,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+          "Value": "\"kq9sKXu2fnU90iYWQt5HLKgycJMl2PXxsTOCDmgRqws=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1765,13 +1810,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+          "Value": "sha256-kq9sKXu2fnU90iYWQt5HLKgycJMl2PXxsTOCDmgRqws="
         }
       ]
     },
     {
-      "Route": "css/produto.dyjx89twm7.css",
-      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\produto.css",
+      "Route": "css/secretaria.284925085z.css",
+      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\secretaria.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1780,7 +1825,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14"
+          "Value": "1505"
         },
         {
           "Name": "Content-Type",
@@ -1788,11 +1833,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+          "Value": "\"Xgze1IoMx8zxvZtpGg67DrlNYxAiRUI9iqjo6fobIRs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1802,21 +1847,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dyjx89twm7"
+          "Value": "284925085z"
         },
         {
           "Name": "label",
-          "Value": "css/produto.css"
+          "Value": "css/secretaria.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+          "Value": "sha256-Xgze1IoMx8zxvZtpGg67DrlNYxAiRUI9iqjo6fobIRs="
         }
       ]
     },
     {
-      "Route": "css/repositorio.css",
-      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\repositorio.css",
+      "Route": "css/secretaria.css",
+      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\secretaria.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1825,7 +1870,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14"
+          "Value": "1505"
         },
         {
           "Name": "Content-Type",
@@ -1833,11 +1878,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+          "Value": "\"Xgze1IoMx8zxvZtpGg67DrlNYxAiRUI9iqjo6fobIRs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
+          "Value": "Thu, 13 Mar 2025 11:49:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1847,52 +1892,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
-        }
-      ]
-    },
-    {
-      "Route": "css/repositorio.dyjx89twm7.css",
-      "AssetFile": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\repositorio.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 11:12:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dyjx89twm7"
-        },
-        {
-          "Name": "label",
-          "Value": "css/repositorio.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+          "Value": "sha256-Xgze1IoMx8zxvZtpGg67DrlNYxAiRUI9iqjo6fobIRs="
         }
       ]
     },

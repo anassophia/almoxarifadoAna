@@ -1,50 +1,34 @@
-﻿<div id="container" class="containerProduto">
-    <div class="container1Produto">
+﻿<div id="container" class="containerCategoria">
+    <div class="container1Categoria">
         <div>
-            <button class="btnProduto">
+            <button class="btnCategoria">
                 Novo
             </button>
         </div>
     </div>
-    <div class="container2Produto">
-        <table class="TableContainerProduto">
-            <thead class="theadProduto">
-                <th>
-                    Código
-                </th>
-                <th>
-                    Descrição
-                </th>
-                <th>
-                    UnidadeMedida
-                </th>
-                <th>
-                    EstoqueAtual
-                </th>
-                <th>
-                    Epermanente
-                </th>
-                <th>
-                    CodigoCategoria
-                </th>
-                <th>
-                    Opções
-                </th>
+    <div class="container2Categoria">
+        <table class="TableContainerCategoria">
+            <thead class="theadCategoria">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Opções
+            </th>
             </thead>
             <tbody>
 
 
-                @foreach (var item in ViewBag.Produto)
+                @if (ViewBag.Categoria != null)
                 {
                     <tr>
-                        <td class="tdProduto">@item.Codigo</td>
-                        <td class="tdProduto">@item.Descricao</td>
-                        <td class="tdProduto">@item.UnidadeMedida</td>
-                        <td class="tdProduto">@item.EstoqueAtual</td>
-                        <td class="tdProduto">@item.Epermanente</td>
-                        <td class="tdProduto">@item.CodigoCategoria</td>
-                        <td class="tdProduto">
-                            <div class="IconesContainerProduto">
+                        <td class="tdCategoria">Codigo</td>
+                        <td class="tdCategoria">Descricao</td>
+                        <td class="tdCategoria">
+                            <div class="IconesContainerCategoria">
 
                                 <i class="bi bi-trash3"></i>
                                 <i class="bi bi-pencil-square"></i>
@@ -55,15 +39,16 @@
 
             </tbody>
 
-        
+
         </table>
     </div>
-    <div class="container3Produto">
+    <div class="container3Categoria">
         <div>
-            <button class="btnProduto BtnAzulColorProduto">
+            <button class="btnCategoria BtnAzulColorCategoria">
                 Voltar
             </button>
         </div>
     </div>
 </div>
+
 

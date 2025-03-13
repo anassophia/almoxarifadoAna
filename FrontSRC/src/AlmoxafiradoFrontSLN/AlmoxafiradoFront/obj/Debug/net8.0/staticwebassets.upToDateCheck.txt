@@ -1,7 +1,7 @@
 wwwroot\css\categoria.css
 wwwroot\css\fornecedor.css
 wwwroot\css\produto.css
-wwwroot\css\repositorio.css
+wwwroot\css\secretaria.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
