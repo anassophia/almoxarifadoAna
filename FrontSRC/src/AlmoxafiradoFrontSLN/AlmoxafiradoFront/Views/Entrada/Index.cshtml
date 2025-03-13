@@ -1,0 +1,52 @@
+﻿<div id="container" class="containerEntrada">
+    <div class="container1Entrada">
+        <div>
+            <button class="btnEntrada">
+                Novo
+            </button>
+        </div>
+    </div>
+    <div class="container2Entrada">
+        <table class="TableContainerEntrada">
+            <thead class="theadEntrada">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Opções
+            </th>
+            </thead>
+            <tbody>
+
+
+                @if (ViewBag.Entrada != null)
+                {
+                    <tr>
+                        <td class="tdEntrada">Codigo</td>
+                        <td class="tdEntrada">Descricao</td>
+                        <td class="tdEntrada">
+                            <div class="IconesContainerEntrada">
+
+                                <i class="bi bi-trash3"></i>
+                                <i class="bi bi-pencil-square"></i>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Entrada">
+        <div>
+            <button class="btnEntrada BtnAzulColorEntrada">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>

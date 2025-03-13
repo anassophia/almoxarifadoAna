@@ -1,4 +1,4 @@
-﻿.containerCategoria {
+﻿.containerSaida {
     width: 60%;
     height: 60%;
     background-color: white;
@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.container1Categoria {
+.container1Saida {
     width: 100%;
     height: 15%;
     /* background-color: black; */
@@ -16,13 +16,13 @@
     align-items: center;
 }
 
-.container2Categoria {
+.container2Saida {
     width: 100%;
     height: 70%;
     /* background-color: green; */
 }
 
-.container3Categoria {
+.container3Saida {
     width: 100%;
     height: 15%;
     /* background-color: yellow; */
@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-.btnCategoria {
+.btnSaida {
     padding: 0.3rem;
     width: 100px;
     background-color: aquamarine;
@@ -41,32 +41,32 @@
     font-weight: bolder;
 }
 
-.BtnAzulColorCategoria {
+.BtnAzulColorSaida {
     background-color: cyan !important;
 }
 
-.theadCategoria {
+.theadSaida {
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
 
-.TableContainerCategoria {
+.TableContainerSaida {
     width: 100%;
     font-size: 15pt !important;
 }
 
-.TableContainerCategoria td, th {
-    border: 1px solid black;
-}
+    .TableContainerSaida td, th {
+        border: 1px solid black;
+    }
 
-.tdCategoria {
+.tdSaida {
     background-color: white;
     color: black;
 }
 
 
-.IconesContainerCategoria {
+.IconesContainerSaida {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@
 }
 
 @media (max-width: 768px) {
-    .containerCategoria {
+    .containerSaida {
         width: 82%;
     }
 }

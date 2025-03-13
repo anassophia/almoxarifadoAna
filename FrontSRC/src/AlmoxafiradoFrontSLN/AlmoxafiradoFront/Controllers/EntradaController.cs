@@ -4,20 +4,20 @@ using System.Text.Json;
 
 namespace AlmoxafiradoFront.Controllers
 {
-    public class ProdutoController : Controller
+    public class EntradaController : Controller
     {
         public IActionResult Index()
         {
             var url = "http://localhost:5070/lista";
-            List<ProdutoDTO> produto = new List<ProdutoDTO>();
+            List<EntradaDTO> entrada = new List<EntradaDTO>();
             using HttpClient client = new HttpClient();
             try
             {
                 HttpResponseMessage response = client.GetAsync(url).Result;
                 response.EnsureSuccessStatusCode();
                 string json = response.Content.ReadAsStringAsync().Result;
-                produto = JsonSerializer.Deserialize<List<ProdutoDTO>>(json);
-                ViewBag.Produto = produto;
+                entrada = JsonSerializer.Deserialize<List<EntradaDTO>>(json);
+                ViewBag.Entrada = entrada;
 
 
             }
