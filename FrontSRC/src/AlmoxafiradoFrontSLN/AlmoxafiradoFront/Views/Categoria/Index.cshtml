@@ -22,11 +22,11 @@
             <tbody>
 
 
-                @if (ViewBag.Categoria != null)
+                @foreach (var item in ViewBag.Categorias)
                 {
                     <tr>
-                        <td class="tdCategoria">Codigo</td>
-                        <td class="tdCategoria">Descricao</td>
+                        <td class="tdCategoria">@item.Codigo</td>
+                        <td class="tdCategoria">@item.Descricao</td>
                         <td class="tdCategoria">
                             <div class="IconesContainerCategoria">
 

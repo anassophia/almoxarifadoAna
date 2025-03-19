@@ -34,15 +34,15 @@
             <tbody>
 
 
-                @if (ViewBag.Produto != null)
+                @foreach (var item in ViewBag.Produto)
                 {
                     <tr>
-                        <td class="tdProduto">Codigo</td>
-                        <td class="tdProduto">Descricao</td>
-                        <td class="tdProduto">UnidadeMedida</td>
-                        <td class="tdProduto">EstoqueAtual</td>
-                        <td class="tdProduto">Epermanente</td>
-                        <td class="tdProduto">CodigoCategoria</td>
+                        <td class="tdProduto">@item.Codigo</td>
+                        <td class="tdProduto">@item.Descricao</td>
+                        <td class="tdProduto">@item.UnidadeMedida</td>
+                        <td class="tdProduto">@item.EstoqueAtual</td>
+                        <td class="tdProduto">@item.Epermanente</td>
+                        <td class="tdProduto">@item.CodigoCategoria</td>
                         <td class="tdProduto">
                             <div class="IconesContainerProduto">
 

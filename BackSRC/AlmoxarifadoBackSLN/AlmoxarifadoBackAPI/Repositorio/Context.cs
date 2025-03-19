@@ -27,8 +27,8 @@ namespace AlmoxarifadoBackAPI.Repositorio
         public DbSet<Produto> Produto { get; set; }
         public DbSet<Fornecedor> Fornecedor { get; set; }
         public DbSet<Secretaria> Secretaria { get; set; }
-        public DbSet<Secretaria> Entrada { get; set; }
-        public DbSet<Secretaria> Saida { get; set; }
+        public DbSet<Entrada> Entrada { get; set; }
+        public DbSet<Saida> Saida { get; set; }
 
     }
 }

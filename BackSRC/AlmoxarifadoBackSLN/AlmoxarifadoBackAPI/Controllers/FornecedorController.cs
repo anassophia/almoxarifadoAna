@@ -17,7 +17,7 @@ namespace AlmoxarifadoBackAPI.Controllers
 
         }
 
-        [HttpGet("/lista")]
+        [HttpGet("/listafornecedor")]
         public IActionResult listaFornecedor()
         {
             return Ok(_db.GetAll());
