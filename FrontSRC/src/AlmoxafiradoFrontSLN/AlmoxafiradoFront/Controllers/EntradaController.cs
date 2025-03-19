@@ -8,7 +8,7 @@ namespace AlmoxafiradoFront.Controllers
     {
         public IActionResult Index()
         {
-            var url = "http://localhost:5070/lista";
+            var url = "https://localhost:7112/listaentrada\r\n";
             List<EntradaDTO> entrada = new List<EntradaDTO>();
             using HttpClient client = new HttpClient();
             try
@@ -17,7 +17,7 @@ namespace AlmoxafiradoFront.Controllers
                 response.EnsureSuccessStatusCode();
                 string json = response.Content.ReadAsStringAsync().Result;
                 entrada = JsonSerializer.Deserialize<List<EntradaDTO>>(json);
-                ViewBag.Entrada = entrada;
+                ViewBag.Entradas = entrada;
 
 
             }

@@ -34,15 +34,15 @@
             <tbody>
 
 
-                @if (ViewBag.Fornecedor != null)
+                @foreach (var item in ViewBag.Fornecedor)
                 {
                     <tr>
-                        <td class="tdFornecedor">Codigo</td>
-                        <td class="tdFornecedor">Nome</td>
-                         <td class="tdFornecedor">Telefone</td>
-                          <td class="tdFornecedor">Estado</td>
-                           <td class="tdFornecedor">Cidade</td>
-                            <td class="tdFornecedor">CNPJ</td>
+                        <td class="tdFornecedor">@item.codigo</td>
+                        <td class="tdFornecedor">@item.nome</td>
+                         <td class="tdFornecedor">@item.telefone</td>
+                          <td class="tdFornecedor">@item.estado</td>
+                           <td class="tdFornecedor">@item.cidade</td>
+                            <td class="tdFornecedor">@item.cnpj</td>
                         <td class="tdFornecedor">
                             <div class="IconesContainerFornecedor">
 

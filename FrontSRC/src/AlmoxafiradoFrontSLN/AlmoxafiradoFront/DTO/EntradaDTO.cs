@@ -2,8 +2,8 @@
 {
     public class EntradaDTO
     {
-        public string Descricao { get; set; }
-        public int Dataentrada { get; set; }
-        public int CodigoFornecedor { get; set; }
+        public string descricao { get; set; }
+        public int dataentrada { get; set; }
+        public int codigofornecedor { get; set; }
     }
 }
