@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lx32r12P0ZbQykgmQkyZttpJ5LlSHrKVn4ZWZQ7A8sA=",
+  "Hash": "OhZ/kp5J+t/P51iOnLgozZW7HQKqSj4mzG/jTTFUMz8=",
   "Source": "AlmoxafiradoFront",
   "BasePath": "_content/AlmoxafiradoFront",
   "Mode": "Default",
@@ -225,6 +225,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\pencil-square.svg",
+      "SourceId": "AlmoxafiradoFront",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\",
+      "BasePath": "_content/AlmoxafiradoFront",
+      "RelativePath": "imagem/pencil-square#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lc3ub6tw5m",
+      "Integrity": "df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagem\\pencil-square.svg"
+    },
+    {
+      "Identity": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\trash3.svg",
+      "SourceId": "AlmoxafiradoFront",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\",
+      "BasePath": "_content/AlmoxafiradoFront",
+      "RelativePath": "imagem/trash3#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t9ai16rs18",
+      "Integrity": "f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagem\\trash3.svg"
     },
     {
       "Identity": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\js\\site.js",
@@ -2263,6 +2305,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "imagem/pencil-square.lc3ub6tw5m.svg",
+      "AssetFile": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\pencil-square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lc3ub6tw5m"
+        },
+        {
+          "Name": "label",
+          "Value": "imagem/pencil-square.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI="
+        }
+      ]
+    },
+    {
+      "Route": "imagem/pencil-square.svg",
+      "AssetFile": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\pencil-square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:06:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI="
+        }
+      ]
+    },
+    {
+      "Route": "imagem/trash3.svg",
+      "AssetFile": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\trash3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:04:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k="
+        }
+      ]
+    },
+    {
+      "Route": "imagem/trash3.t9ai16rs18.svg",
+      "AssetFile": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\trash3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:04:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t9ai16rs18"
+        },
+        {
+          "Name": "label",
+          "Value": "imagem/trash3.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k="
         }
       ]
     },

@@ -25,13 +25,15 @@
                 @foreach (var item in ViewBag.Categorias)
                 {
                     <tr>
-                        <td class="tdCategoria">@item.Codigo</td>
-                        <td class="tdCategoria">@item.Descricao</td>
+                        <td class="tdCategoria">@item.codigo</td>
+                        <td class="tdCategoria">@item.descricao</td>
                         <td class="tdCategoria">
                             <div class="IconesContainerCategoria">
-
-                                <i class="bi bi-trash3"></i>
-                                <i class="bi bi-pencil-square"></i>
+                                <div class="lixo">
+                                    <img src="/imagem/trash3.svg" alt="Excluir" />
+                                </div>
+                                <button class="Edit"><img src="/imagem/pencil-square.svg" alt="Editar" /></button>
+                                
                             </div>
                         </td>
                     </tr>

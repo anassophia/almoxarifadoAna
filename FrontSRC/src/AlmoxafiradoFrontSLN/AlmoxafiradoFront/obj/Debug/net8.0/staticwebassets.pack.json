@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\pencil-square.svg",
+      "PackagePath": "staticwebassets\\imagem\\pencil-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\imagem\\trash3.svg",
+      "PackagePath": "staticwebassets\\imagem\\trash3.svg"
+    },
+    {
       "Id": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\almoxarifadoAna\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

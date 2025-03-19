@@ -741,6 +741,170 @@
       ]
     },
     {
+      "Route": "imagem/pencil-square.lc3ub6tw5m.svg",
+      "AssetFile": "imagem/pencil-square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:06:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lc3ub6tw5m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI="
+        },
+        {
+          "Name": "label",
+          "Value": "imagem/pencil-square.svg"
+        }
+      ]
+    },
+    {
+      "Route": "imagem/pencil-square.svg",
+      "AssetFile": "imagem/pencil-square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:06:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI="
+        }
+      ]
+    },
+    {
+      "Route": "imagem/trash3.svg",
+      "AssetFile": "imagem/trash3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:04:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k="
+        }
+      ]
+    },
+    {
+      "Route": "imagem/trash3.t9ai16rs18.svg",
+      "AssetFile": "imagem/trash3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 19:04:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t9ai16rs18"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k="
+        },
+        {
+          "Name": "label",
+          "Value": "imagem/trash3.svg"
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js",
       "Selectors": [],

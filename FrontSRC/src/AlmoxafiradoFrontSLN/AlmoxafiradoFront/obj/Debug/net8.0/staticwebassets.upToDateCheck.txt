@@ -6,6 +6,8 @@ wwwroot\css\saida.css
 wwwroot\css\secretaria.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagem\pencil-square.svg
+wwwroot\imagem\trash3.svg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
