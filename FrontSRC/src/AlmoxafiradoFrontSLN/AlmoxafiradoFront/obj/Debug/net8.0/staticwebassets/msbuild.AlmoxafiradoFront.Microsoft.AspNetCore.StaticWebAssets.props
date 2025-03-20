@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4vn71m4pkr</Fingerprint>
-      <Integrity>cFJmrmQQ+i2pNh6SfYPsweHjp8fn8OptGaUOHqgnEzI=</Integrity>
+      <Fingerprint>z7tdqrob50</Fingerprint>
+      <Integrity>0URxMIWRiOipdRF1IrhVQzpQVJQrAvZxvXJvQG5zZC8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -174,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lc3ub6tw5m</Fingerprint>
-      <Integrity>df9IJpWnIUxQIvkNFlGq3oBLkir081U6QZL8go1Z3ZI=</Integrity>
+      <Fingerprint>jf0jabmxgv</Fingerprint>
+      <Integrity>734wdtapA0wZuye9DCV+cJaSvevCbY2diml43jdfqyA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagem\pencil-square.svg'))</OriginalItemSpec>
@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t9ai16rs18</Fingerprint>
-      <Integrity>f9JyqEZPQhaX7J6vitP9Zw8D//4AmpJpeEYX7s/YO5k=</Integrity>
+      <Fingerprint>ht5ck4vcrd</Fingerprint>
+      <Integrity>i0N/41UZ3bPwwVMWfM3aV9uxR2SoatG0sZoTOzTtblk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagem\trash3.svg'))</OriginalItemSpec>
