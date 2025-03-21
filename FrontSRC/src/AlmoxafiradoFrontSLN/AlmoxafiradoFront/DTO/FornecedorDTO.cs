@@ -3,10 +3,10 @@
     public class FornecedorDTO
     {
         public int codigo { get; set; }
-        public int nome { get; set; }
-        public int telefone { get; set; }
-        public int estado { get; set; }
-        public int cidade { get; set; }
-        public int cnpj { get; set; }
+        public string nome { get; set; }
+        public string telefone { get; set; }
+        public string estado { get; set; }
+        public string cidade { get; set; }
+        public string cnpj { get; set; }
     }
 }

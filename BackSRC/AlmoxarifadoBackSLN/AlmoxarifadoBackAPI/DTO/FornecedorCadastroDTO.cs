@@ -3,11 +3,11 @@
     public class FornecedorCadastroDTO
     {
 
-        public int Nome { get; set; }
-        public int Telefone { get; set; }
-        public int Estado { get; set; }
-        public int Cidade { get; set; }
-        public int CNPJ { get; set; }
+        public string Nome { get; set; }
+        public string Telefone { get; set; }
+        public string Estado { get; set; }
+        public string Cidade { get; set; }
+        public string CNPJ { get; set; }
 
     }
 }

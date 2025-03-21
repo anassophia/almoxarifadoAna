@@ -35,5 +35,10 @@ namespace AlmoxafiradoFront.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult Cadastrar(string descricao)
+        {
+            return RedirectToAction("Index");
+        }
     }
 }
