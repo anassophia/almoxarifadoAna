@@ -3,9 +3,8 @@
 *@
 @{
 }
-
-<h1>Cadastrar categoria</h1>
-<form method="post" action="/Categoria/Cadastrar">
+<h1>Cadastrar Produto</h1>
+<form method="post" action="/Produto/Creater">
 
     <div class="mb-3">
         <label for="descricao" class="form-label">Descrição</label>
@@ -13,14 +12,14 @@
     </div>
     <div class="mb-3">
         <label for="unidademedida" class="form-label">UnidadeDeMedida</label>
-        <input type="text" class="form-control" name="unidademedida" id="unidademedida" maxlength="50">
+        <input type="text" class="form-control" name="unidademedida" id="unidademedida" maxlength="10">
     </div>
     <div class="mb-3">
         <label for="estoqueatual" class="form-label">EstoqueAtual</label>
-        <input type="number" class="form-control" name="estoqueatual" id="estoqueatual" maxlength="50">
+        <input type="number" class="form-control" name="estoqueatual" id="estoqueatual" maxlength="10">
     </div>
 
-    <button class="btn btn-primary" href="https://localhost:7215/Categoria">
+    <button class="btn btn-primary" href="https://localhost:7215/Produto">
         Voltar
     </button>
     <button type="submit" class="btn btn-primary">
@@ -28,14 +27,4 @@
     </button>
 
 </form>
-
-
-
-
-
-
-
-
-
-
 

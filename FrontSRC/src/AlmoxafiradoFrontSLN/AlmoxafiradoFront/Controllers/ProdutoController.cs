@@ -1,5 +1,6 @@
 ﻿using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 using System.Text.Json;
 
 namespace AlmoxafiradoFront.Controllers
@@ -8,7 +9,7 @@ namespace AlmoxafiradoFront.Controllers
     {
         public IActionResult Index()
         {
-            var url = "https://localhost:7112/listaproduto\r\n";
+            var url = "https://localhost:7112/listaproduto";
             List<ProdutoDTO> produto = new List<ProdutoDTO>();
             using HttpClient client = new HttpClient();
             try
@@ -30,9 +31,34 @@ namespace AlmoxafiradoFront.Controllers
             return View();
         }
         [HttpGet]
-        public IActionResult Create()
+        public IActionResult Creater()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Produto(string descricao)
+        {
+            var url = "https://localhost:7112/criarproduto";
+
+            using HttpClient client = new HttpClient();
+            try
+            {
+                var categotiaNova = new CategoriaNovaDTO { descricao = descricao };
+                var categoriaSerializada = JsonSerializer.Serialize<CategoriaNovaDTO>(categotiaNova);
+                var jsonContent = new StringContent(categoriaSerializada, Encoding.UTF8, "aplication/json");
+
+                HttpResponseMessage response = client.GetAsync(url).Result;
+                response.EnsureSuccessStatusCode();
+
+            }
+
+            catch (Exception)
+            {
+                return View();
+
+            }
+            return RedirectToAction("Index");
+
         }
     }
 }
