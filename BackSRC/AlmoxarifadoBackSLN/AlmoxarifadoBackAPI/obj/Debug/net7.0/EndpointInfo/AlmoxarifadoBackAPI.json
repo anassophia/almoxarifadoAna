@@ -468,6 +468,10 @@
           "codigo": {
             "type": "integer",
             "format": "int32"
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

@@ -44,11 +44,11 @@ namespace AlmoxafiradoFront.Controllers
             using HttpClient client = new HttpClient();
             try
             {
-                var categotiaNova = new CategoriaNovaDTO { descricao = descricao };
-                var categoriaSerializada = JsonSerializer.Serialize<CategoriaNovaDTO>(categotiaNova);
+                var categoriaNova = new CategoriaNovaDTO { descricao = descricao };
+                var categoriaSerializada = JsonSerializer.Serialize<CategoriaNovaDTO>(categoriaNova);
                 var jsonContent = new StringContent(categoriaSerializada, Encoding.UTF8, "aplication/json");
 
-                HttpResponseMessage response = client.GetAsync(url).Result;
+                HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
                 response.EnsureSuccessStatusCode();
 
             }
