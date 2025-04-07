@@ -180,7 +180,7 @@
               "RelativeDocumentMoniker": "AlmoxarifadoBackAPI\\Controllers\\CategoriaController.cs",
               "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\almoxarifadoAna\\BackSRC\\AlmoxarifadoBackSLN\\AlmoxarifadoBackAPI\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "AlmoxarifadoBackAPI\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T13:52:21.182Z",
               "EditorCaption": ""
@@ -195,8 +195,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\Controllers\\FornecedorController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T12:29:43.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T12:29:43.936Z"
             },
             {
               "$type": "Document",
@@ -268,8 +267,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T13:46:36.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T13:46:36.279Z"
             },
             {
               "$type": "Document",
@@ -281,8 +279,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\DTO\\CategoriaCadastroDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T18:58:00.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T18:58:00.44Z"
             },
             {
               "$type": "Document",
@@ -294,8 +291,7 @@
               "RelativeToolTip": "AlmoxarifadoBackAPI\\DTO\\CategoriaDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T14:03:55.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T14:03:55.499Z"
             },
             {
               "$type": "Document",

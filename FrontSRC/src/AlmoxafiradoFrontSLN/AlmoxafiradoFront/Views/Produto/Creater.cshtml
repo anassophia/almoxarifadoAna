@@ -18,10 +18,11 @@
         <label for="estoqueatual" class="form-label">EstoqueAtual</label>
         <input type="number" class="form-control" name="estoqueatual" id="estoqueatual" maxlength="10">
     </div>
-    <div class="mb-3">
-        <label for="epermanente" class="form-label">ÉPermanente(Sim/Não)</label>
-        <input type="text" class="form-control" name="epermanente" id="epermanente" maxlength="3">
-    </div>
+    <select for="epermanente" class="form-select form-select-sm aria-label="Large select example">
+        <option selected>ÉPermanente</option>
+        <option value="1">sim</option>
+        <option value="2">não</option>
+    </select>
     <div class="mb-3">
         <label for="codigocategoria" class="form-label">CodigoCategoria</label>
         <input type="number" class="form-control" name="codigocategoria" id="codigocategoria" maxlength="10">

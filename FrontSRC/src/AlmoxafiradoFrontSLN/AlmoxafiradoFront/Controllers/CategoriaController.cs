@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Text.Json;
 using System.Text;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace AlmoxafiradoFront.Controllers
 {
@@ -46,8 +47,8 @@ namespace AlmoxafiradoFront.Controllers
             {
                 var categoriaNova = new CategoriaNovaDTO { descricao = descricao };
                 var categoriaSerializada = JsonSerializer.Serialize<CategoriaNovaDTO>(categoriaNova);
-                var jsonContent = new StringContent(categoriaSerializada, Encoding.UTF8, "aplication/json");
-
+                var jsonContent = new StringContent(categoriaSerializada, Encoding.UTF8, "application/json");
+                
                 HttpResponseMessage response = client.PostAsync(url, jsonContent).Result;
                 response.EnsureSuccessStatusCode();
 
